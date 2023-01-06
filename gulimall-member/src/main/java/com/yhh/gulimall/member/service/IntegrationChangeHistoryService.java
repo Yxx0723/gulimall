@@ -1,0 +1,20 @@
+package com.yhh.gulimall.member.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.yhh.common.utils.PageUtils;
+import com.yhh.gulimall.member.entity.IntegrationChangeHistoryEntity;
+
+import java.util.Map;
+
+/**
+ * 积分变化历史记录
+ *
+ * @author yhh
+ * @email yhh@gmail.com
+ * @date 2022-12-13 23:44:24
+ */
+public interface IntegrationChangeHistoryService extends IService<IntegrationChangeHistoryEntity> {
+
+    PageUtils queryPage(Map<String, Object> params);
+}
+

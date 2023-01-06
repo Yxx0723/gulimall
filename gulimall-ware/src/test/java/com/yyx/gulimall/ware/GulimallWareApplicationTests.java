@@ -8,6 +8,9 @@ class GulimallWareApplicationTests {
 
     @Test
     void contextLoads() {
+
+
+
     }
 
 }
